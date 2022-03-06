@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+
+    background: url(bg.jpg) no-repeat center center fixed;
+    background-size: cover;
+    /* background-color: rgb(156, 151, 151); */
+}
+
+.logindetails {
+
+    background-color: white;
+    width: 400px;
+    height: 490px;
+    border-radius: 5px;
+    position: absolute;
+    top: 18%;
+    left: 37%;
+    text-align: center;
+    box-shadow: 0px 0px 50px 0px rgba(0, 0, 0, 0.5);
+}
+
+h2 {
+    font-size: 61px;
+    font-family: 'League Spartan', sans-serif;
+    margin-top: 16px;
+    margin-bottom: 118px;
+
+}
+
+.tbox {
+    margin-top: 18px;
+
+}
+
+.tbox input {
+    padding: 6px;
+    box-shadow: 3px 3px 5px #c6c2c2;
+}
+
+input {
+    width: 75%;
+    font-size: 23px;
+    border-radius: 5px;
+    border: none;
+    /* padding: 6px; */
+
+
+}
+
+.btn {
+    margin-top: 18px;
+    margin-bottom: 14px;
+    cursor: pointer;
+
+
+}
+
+.btn button {
+    width: 78%;
+    background-color: rgb(67, 67, 247);
+    color: white;
+    font-weight: bold;
+    padding: 7px;
+
+    font-size: 23px;
+    border-radius: 5px;
+    border: none;
+}
+
+.btn button:hover {
+    background-color: rgb(47, 47, 247);
+}
+
+.navbar {
+
+    background-color: rgb(114, 112, 112, .5);
+    font-size: 24px;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-top: 7px;
+    
+}
+
+.navbar ul {
+    overflow: auto;
+
+}
+
+
+.navbar li {
+    list-style: none;
+    float: left;
+    
+}
+
+.navbar li a {
+    color: black;
+    text-decoration: none;
+    padding: 0px 17px;
+    
+}
+
+.navbar li:hover {
+    color: white;
+    background-color: black;
+}
+
+.navbar li a:hover {
+    color: white;
+}
+
+
+
+.fa-color {
+    color: rgb(67, 67, 236);
+}
+
